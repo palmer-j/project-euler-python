@@ -11,12 +11,17 @@
 # By considering the terms in the Fibonacci sequence whose values do 
 # not exceed four million, find the sum of the even-valued terms.
 
+def fib_gen(max_val=None):
+	a, b = 0, 1
+	while not max_val or a < max_val:
+		yield a
+		a, b = b, a + b
 
-def is_multiple_3_or_5(num):
-	return sum([x for x in range(num) if x % 3 == 0 or x % 5 == 0])
+def even_fib_sum(max_val):
+	return sum([i for i in fib_gen(max_val) if i % 2 == 0])
 
 def solve():
-	return str(is_multiple_3_or_5(1000))
+	return str(even_fib_sum(4_000_000))
 
 if __name__ == "__main__":
 	print(solve())
