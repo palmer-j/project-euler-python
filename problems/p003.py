@@ -35,4 +35,6 @@ def solve():
 	return str(max(prime_factors(600_851_475_143)))
 
 if __name__ == "__main__":
-	print(solve())
+	#print(solve())
+
+	print(prime_factors(13195))
