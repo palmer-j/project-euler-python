@@ -4,7 +4,7 @@ import unittest
 
 from problems.p005 import lcm
 
-class TestIsPalindromic(unittest.TestCase):
+class TestLCM(unittest.TestCase):
 
-    def test_prime_factor_generation(self):
+    def test_lcm(self):
         self.assertEqual(lcm(4, 6), 12)
