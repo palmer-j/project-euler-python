@@ -4,7 +4,6 @@ import unittest
 
 from problems.p001 import sum_of_multiples_3_or_5
 
-
 class TestSumOfMultiples(unittest.TestCase):
 
     def test_sum_of_multiples(self):

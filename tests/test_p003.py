@@ -4,7 +4,6 @@ import unittest
 
 from problems.p003 import prime_factors
 
-
 class TestPrimeFactors(unittest.TestCase):
 
     def test_prime_factor_generation(self):
