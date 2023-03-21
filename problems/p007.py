@@ -8,7 +8,7 @@
 # What is the 10,001st prime number?
 # 
 
-from euler_helpers import is_prime
+from problems.euler_helpers import is_prime
 
 def nth_prime(n):
     test_int = 1

@@ -1,4 +1,4 @@
-"""Unit tests for p006.py."""
+"""Unit tests for euler_helpers.py."""
 
 import unittest
 
