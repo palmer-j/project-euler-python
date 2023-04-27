@@ -4,6 +4,7 @@ import unittest
 
 from problems.p008 import largest_product
 
+
 class TestLargestProduct(unittest.TestCase):
 
     def test_largest_product(self):

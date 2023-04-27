@@ -1,16 +1,16 @@
-# 
+#
 # Solution to Project Euler problem 8
 # Largest product in a series
-# 
-# The four adjacent digits in the 1000-digit number 
+#
+# The four adjacent digits in the 1000-digit number
 # that have the greatest product are 9 × 9 × 8 × 9 = 5832.
 #
 # 731671765313 ...
-# 969835203127 ... 
+# 969835203127 ...
 # 858615607891 ...
 # ...
 #
-# Find the thirteen adjacent digits in the 1000-digit number 
+# Find the thirteen adjacent digits in the 1000-digit number
 # that have the greatest product. What is the value of this product?
 #
 
@@ -37,16 +37,19 @@ example_num_str = """73167176531330624919225119674426574742355349194934
 05886116467109405077541002256983155200055935729725
 71636269561882670428252483600823257530420752963450"""
 
+
 def largest_product(digits, num_str=example_num_str):
     max_prod = 0
     int_list = [int(i) for i in num_str if i.isdigit()]
 
-    for l in range(0, len(int_list) - digits + 1):
-         max_prod = max(max_prod, math.prod(int_list[l:l + digits]))
+    for left in range(0, len(int_list) - digits + 1):
+        max_prod = max(max_prod, math.prod(int_list[left:left + digits]))
     return max_prod
+
 
 def solve():
     return largest_product(13)
 
+
 if __name__ == "__main__":
-	print(solve())
+    print(solve())
