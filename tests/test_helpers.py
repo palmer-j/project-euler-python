@@ -4,6 +4,7 @@ import unittest
 
 from problems.euler_helpers import is_prime
 
+
 class TestPrime(unittest.TestCase):
 
     def test_is_prime(self):
@@ -26,5 +27,3 @@ class TestPrime(unittest.TestCase):
 
         self.assertFalse(is_prime(2343477711))
         self.assertFalse(is_prime(34656788430))
-        
-

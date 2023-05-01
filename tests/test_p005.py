@@ -4,6 +4,7 @@ import unittest
 
 from problems.p005 import lcm
 
+
 class TestLCM(unittest.TestCase):
 
     def test_lcm(self):

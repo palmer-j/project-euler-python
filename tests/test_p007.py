@@ -4,6 +4,7 @@ import unittest
 
 from problems.p007 import nth_prime
 
+
 class TestNthPrime(unittest.TestCase):
 
     def test_nth_prime(self):

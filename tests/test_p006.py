@@ -4,6 +4,7 @@ import unittest
 
 from problems.p006 import sum_square_difference
 
+
 class TestSumSquareDifference(unittest.TestCase):
 
     def test_sum_square_difference(self):

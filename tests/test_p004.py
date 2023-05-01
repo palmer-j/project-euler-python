@@ -4,6 +4,7 @@ import unittest
 
 from problems.p004 import is_palindromic
 
+
 class TestIsPalindromic(unittest.TestCase):
 
     def test_is_palindromic(self):
