@@ -12,5 +12,5 @@ class TestCollatz(unittest.TestCase):
         self.assertEqual(solve(20, 20), 137846528820)
 
     def test_analytic(self):
-        self.assertEqual(solve_analytically(2, 2), 6)
-        self.assertEqual(solve_analytically(20, 20), 137846528820)
+        self.assertEqual(solve_analytically(2), 6)
+        self.assertEqual(solve_analytically(20), 137846528820)
