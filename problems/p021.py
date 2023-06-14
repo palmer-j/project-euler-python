@@ -36,6 +36,8 @@ def sum_amicable(max_n):
             ans += idx
     return ans
 
+def solve():
+    return sum_amicable(10_000)
 
 if __name__ == "__main__":
-    print(sum_amicable(10_000))
+    print(solve())
