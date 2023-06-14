@@ -34,4 +34,4 @@ def list_primes(n):
 
 
 def prime_generator(limit):
-    pass
+    raise NotImplementedError
