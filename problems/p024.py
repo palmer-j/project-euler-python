@@ -1,6 +1,3 @@
-#
-# Solution to Project Euler problem 24
-# https://projecteuler.net/problem=24
 # Lexicographic Permutations
 #
 # A permutation is an ordered arrangement of objects. For example, 3124 is one
